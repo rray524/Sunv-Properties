@@ -1,25 +1,25 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import logo from '../../../images/logo.png'
+import logo from '../../../images/logo.png';
+import './Navigation.css';
 
 const Navigation = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" variant="dark" style={{ background: 'white', borderBottom: '3px solid #000' }}>
             <Container>
                 <NavLink to="/"><img src={logo} alt="" /></NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
+                        <NavLink to="/home">Home</NavLink>
+                        <NavLink to="/explore">Explore</NavLink>
+                        <NavLink to="#pricing">Pricing</NavLink>
 
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#deets">More deets</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
-                            Dank memes
-                        </Nav.Link>
+                        <NavLink to="#deets">Rahul Ray</NavLink>
+                        <Button variant="light">Login</Button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
