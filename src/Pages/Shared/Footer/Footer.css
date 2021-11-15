@@ -1,0 +1,24 @@
+div#footer {
+    background: #00acff;
+    padding: 34px 0;
+}
+#footer .row{
+    align-items: center;
+}
+div#footer-bottom {
+    background: #202830;
+    padding: 45px 0;
+    color: white;
+}
+.footer-text {
+    border-top: 1px solid rgba(255,255,255,.1);
+    padding-top: 34px;
+}
+.list-group.list-group-flush {
+    padding-bottom: 34px;
+}
+.list-group-item {
+    color: white;
+    padding-left: 0;
+    background: transparent;
+}

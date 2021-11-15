@@ -14,7 +14,7 @@ const Navigation = () => {
                     <Nav className="me-auto">
                         <NavLink to="/home">Home</NavLink>
                         <NavLink to="/explore">Explore</NavLink>
-                        <NavLink to="#pricing">Pricing</NavLink>
+
 
                     </Nav>
                     <Nav>
