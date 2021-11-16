@@ -1,0 +1,19 @@
+.navbar a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: black;
+    padding: 17px 19px;
+}
+.navbar img {
+    width: 86%;
+}
+button.btn.btn-light {
+    font-weight: 700;
+    margin: 0;
+    background: #00acff;
+    font-size: 1.3vw;
+    color: white;
+    border-radius: 0;
+    padding: 11px 18px;
+}

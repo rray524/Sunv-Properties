@@ -6,7 +6,7 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <Carousel fade>
+        <Carousel fade className='banner'>
             <Carousel.Item interval={2000}>
                 <img
                     className="d-block w-100"

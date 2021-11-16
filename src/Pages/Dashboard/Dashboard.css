@@ -1,0 +1,10 @@
+.nav-pills .nav-link.active {
+    background-color: #00acff;
+    margin-bottom: 14px;
+}
+textarea#floatingTextarea{
+    height: 188px;
+}
+#pay img{
+    width: 100%;
+}

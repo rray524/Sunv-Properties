@@ -1,4 +1,4 @@
-.carousel-item img {
+.banner .carousel-item img {
     filter: brightness(50%);
 }
 @media only screen and (min-width: 800px) {
@@ -7,18 +7,18 @@
         margin-bottom: 17%;
     }
 }
-.carousel-caption p{
+.banner .carousel-caption p{
     font-size: 1.5vw;
 }
-span.carousel-control-next-icon, span.carousel-control-prev-icon {
+.banner span.carousel-control-next-icon, .banner span.carousel-control-prev-icon {
     border: 2px solid white;
     padding: 19px;
 }
 @media only screen and (max-width: 391px) {
-    .carousel-caption p{
+    .banner .carousel-caption p{
         font-size: 2.5vw;
     }
 }
-button.navbar-toggler.collapsed,button.navbar-toggler {
+.banner button.navbar-toggler.collapsed,button.navbar-toggler {
     background: black;
 }

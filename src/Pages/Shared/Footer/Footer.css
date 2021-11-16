@@ -22,3 +22,6 @@ div#footer-bottom {
     padding-left: 0;
     background: transparent;
 }
+#footer img {
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+.slick-slider img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 7px solid #00acff;
+    margin: 7px auto;
+}
+button.slick-arrow.slick-prev {
+    display: none!important;
+}
+button.slick-arrow.slick-next {
+    display: none!important;
+}
+.slick-dots li button:before {
+    font-size: 14px;
+}
+.fa-star {
+    color: #d1d114;
+}
