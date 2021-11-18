@@ -1,7 +1,7 @@
 .navbar a {
     text-decoration: none;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: black;
     padding: 17px 19px;
 }
@@ -12,8 +12,19 @@ button.btn.btn-light {
     font-weight: 700;
     margin: 0;
     background: #00acff;
-    font-size: 1.3vw;
+    font-size: 1.2rem;
     color: white;
     border-radius: 0;
     padding: 11px 18px;
+}
+#dashboard button.btn.btn-light, .navbar button.btn.btn-light{
+    width: 100%;
+}
+.navbar-nav {
+    align-items: center;
+}
+@media only screen and (max-width: 420px) {
+    a.logo-container {
+        width: 74%;
+    }
 }

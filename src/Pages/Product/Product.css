@@ -1,0 +1,11 @@
+#single-product img{
+    width: 100%;
+}
+img.adv {
+    border: 2px solid #f80;
+}
+h2.sidebar-title {
+    background: #00acff;
+    color: white;
+    padding: 9px;
+}

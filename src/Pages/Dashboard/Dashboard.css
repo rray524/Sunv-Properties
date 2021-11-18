@@ -8,3 +8,26 @@ textarea#floatingTextarea{
 #pay img{
     width: 100%;
 }
+div#dashboard .list-group-item {
+    color: black;
+    padding: 3px 7px;
+}
+div#dashboard .list-group-flush.list-group {
+    padding-bottom: 0px;
+}
+div#footer-bottom .list-group-item {
+    color: white;
+    padding: 3px 0px;
+}
+div#dashboard .nav-pills {
+    background: #f80;
+}
+#dashboard .nav-pills a {
+    color: white;
+}
+#dashboard .nav-pills .nav-link.active {
+    border-radius: 0;
+}
+#dashboard .card {
+    margin-bottom: 18px;
+}
